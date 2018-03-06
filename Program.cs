@@ -5,6 +5,8 @@ using SharpCompress;
 using SharpCompress.Archives;
 using SharpCompress.Archives.Rar;
 using SharpCompress.Readers;
+using EpubSharp;
+using EpubSharp.Format;
 
 namespace Comics
 {
@@ -38,6 +40,19 @@ namespace Comics
                     });
                 }
             }
+        }
+
+        private static void WriteEPubX()
+        {
+            //insert img data into this byte array
+            byte[] imgData = null;
+            byte[] cntData = null;
+
+            EpubWriter writer = new EpubWriter();
+            writer.AddAuthor("An anuthor");
+            writer.SetCover(imgData, ImageFormat.Jpeg);
+            writer.AddFile("string", cntData, EpubContentType.ImageJpeg);
+            writer.Write("newBook.epub");
         }
     }
 }

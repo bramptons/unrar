@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPubSharp.dll" Version="1.1.5" />
     <PackageReference Include="sharpcompress" Version="0.19.2" />
   </ItemGroup>
 

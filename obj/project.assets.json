@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "EpubSharp.dll/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.1"
+        },
+        "compile": {
+          "lib/netcoreapp1.1/EpubSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp1.1/EpubSharp.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -209,6 +221,18 @@
     }
   },
   "libraries": {
+    "EpubSharp.dll/1.1.5": {
+      "sha512": "djTj1Ieq5sRb9M+e6l4Hb5JdrwXYT3U9IVyP794ZfL6RPL+chCX4QEutBOFK/swEjE6E/SY/as4euYeV0/H9fA==",
+      "type": "package",
+      "path": "epubsharp.dll/1.1.5",
+      "files": [
+        "epubsharp.dll.1.1.5.nupkg.sha512",
+        "epubsharp.dll.nuspec",
+        "lib/net451/EpubSharp.dll",
+        "lib/netcoreapp1.1/EpubSharp.dll",
+        "lib/netstandard1.3/EpubSharp.dll"
+      ]
+    },
     "Microsoft.NETCore.App/2.0.0": {
       "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
       "type": "package",
@@ -683,6 +707,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "EPubSharp.dll >= 1.1.5",
       "Microsoft.NETCore.App >= 2.0.0",
       "sharpcompress >= 0.19.2"
     ]
@@ -731,6 +756,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "EPubSharp.dll": {
+            "target": "Package",
+            "version": "[1.1.5, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.0.0, )",
