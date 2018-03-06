@@ -1,17 +1,23 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "58c90883885f6b15ab01757f2f3830fa434e0f38"
+    "signature": "72f2720ea3984daf36ca41a5ae05978a6069f1a6"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "Comics/1.0.0": {
         "dependencies": {
+          "EpubSharp.dll": "1.1.5",
           "SharpCompress": "0.19.2"
         },
         "runtime": {
           "Comics.dll": {}
+        }
+      },
+      "EpubSharp.dll/1.1.5": {
+        "runtime": {
+          "lib/netcoreapp1.1/EpubSharp.dll": {}
         }
       },
       "SharpCompress/0.19.2": {
@@ -26,6 +32,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EpubSharp.dll/1.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-djTj1Ieq5sRb9M+e6l4Hb5JdrwXYT3U9IVyP794ZfL6RPL+chCX4QEutBOFK/swEjE6E/SY/as4euYeV0/H9fA==",
+      "path": "epubsharp.dll/1.1.5",
+      "hashPath": "epubsharp.dll.1.1.5.nupkg.sha512"
     },
     "SharpCompress/0.19.2": {
       "type": "package",
