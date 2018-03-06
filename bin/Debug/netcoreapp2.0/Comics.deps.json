@@ -1,0 +1,38 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "58c90883885f6b15ab01757f2f3830fa434e0f38"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Comics/1.0.0": {
+        "dependencies": {
+          "SharpCompress": "0.19.2"
+        },
+        "runtime": {
+          "Comics.dll": {}
+        }
+      },
+      "SharpCompress/0.19.2": {
+        "runtime": {
+          "lib/netstandard2.0/SharpCompress.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Comics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpCompress/0.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J5jDk13xVGNHGOG1Q3+guHTZmoeuruP88sxtEpFhMfSUkdLKqfcBDEssHjPGnl2ndVvv65BP3qr1I9yoUULSgA==",
+      "path": "sharpcompress/0.19.2",
+      "hashPath": "sharpcompress.0.19.2.nupkg.sha512"
+    }
+  }
+}
