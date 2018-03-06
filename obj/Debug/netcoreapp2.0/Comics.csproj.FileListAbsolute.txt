@@ -8,3 +8,13 @@ C:\Users\Abraham.Glover\Projects\Comics\obj\Debug\netcoreapp2.0\Comics.AssemblyI
 C:\Users\Abraham.Glover\Projects\Comics\obj\Debug\netcoreapp2.0\Comics.AssemblyInfo.cs
 C:\Users\Abraham.Glover\Projects\Comics\obj\Debug\netcoreapp2.0\Comics.dll
 C:\Users\Abraham.Glover\Projects\Comics\obj\Debug\netcoreapp2.0\Comics.pdb
+C:\Users\abesp\Source\Repos\unrar\bin\Debug\netcoreapp2.0\Comics.deps.json
+C:\Users\abesp\Source\Repos\unrar\bin\Debug\netcoreapp2.0\Comics.runtimeconfig.json
+C:\Users\abesp\Source\Repos\unrar\bin\Debug\netcoreapp2.0\Comics.runtimeconfig.dev.json
+C:\Users\abesp\Source\Repos\unrar\bin\Debug\netcoreapp2.0\Comics.dll
+C:\Users\abesp\Source\Repos\unrar\bin\Debug\netcoreapp2.0\Comics.pdb
+C:\Users\abesp\Source\Repos\unrar\obj\Debug\netcoreapp2.0\Comics.csproj.CoreCompileInputs.cache
+C:\Users\abesp\Source\Repos\unrar\obj\Debug\netcoreapp2.0\Comics.AssemblyInfoInputs.cache
+C:\Users\abesp\Source\Repos\unrar\obj\Debug\netcoreapp2.0\Comics.AssemblyInfo.cs
+C:\Users\abesp\Source\Repos\unrar\obj\Debug\netcoreapp2.0\Comics.dll
+C:\Users\abesp\Source\Repos\unrar\obj\Debug\netcoreapp2.0\Comics.pdb

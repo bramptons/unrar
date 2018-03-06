@@ -688,28 +688,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Abraham.Glover\\.nuget\\packages\\": {},
+    "C:\\Users\\abesp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abraham.Glover\\Projects\\Comics\\Comics.csproj",
+      "projectUniqueName": "C:\\Users\\abesp\\Source\\Repos\\unrar\\Comics.csproj",
       "projectName": "Comics",
-      "projectPath": "C:\\Users\\Abraham.Glover\\Projects\\Comics\\Comics.csproj",
-      "packagesPath": "C:\\Users\\Abraham.Glover\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abraham.Glover\\Projects\\Comics\\obj\\",
+      "projectPath": "C:\\Users\\abesp\\Source\\Repos\\unrar\\Comics.csproj",
+      "packagesPath": "C:\\Users\\abesp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abesp\\Source\\Repos\\unrar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Abraham.Glover\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\abesp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
