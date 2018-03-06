@@ -20,10 +20,9 @@ namespace Comics
             using(var filestream = File.OpenRead(s+a))
             using(var reader = new StreamReader(filestream)){
                 string itis = reader.EndOfStream.ToString();
-                Console.WriteLine("Is it null?");
-                Console.WriteLine(itis ?? "its null");
-                //un rar a file                
+                Console.WriteLine("Is it null?" + itis ?? "its null") ;                             
             }
+            //un rar a file
             RarRar(s, a);
         }
 
